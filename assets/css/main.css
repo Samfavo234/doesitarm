@@ -13,16 +13,22 @@ nav{
 
 .text-sm{
     font-size: .875rem;
+    line-height: 1.25rem;
+
 }
+
+
 
 .text-xl {
     font-size: 1.25rem;
-    line-height: 1.75rem;
+
 }
 
 a{
     text-decoration: none;
     color: inherit;
+    padding-top: 30px;
+    
 }
 
 #other-nav-link{
@@ -36,6 +42,11 @@ a{
     margin-left: 15px;
 }
 
+.font-bold {
+    font-weight: 700;
+}
+
+    
 .underline{
     text-decoration: underline;
     color: white;
@@ -47,8 +58,92 @@ a{
     text-align: center;
     margin: auto;
     width: 70%;
+    padding-top: 90px;
 }
 
 #callToAction{
     text-align: center;
+    padding-top: 100px;
+    font-size:20px;
+    
+    
+}
+h1{
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 60px;
+    padding-bottom: 25px;
+}
+
+#callToActionButton :hover{
+            background-color: blue;
+            margin-top:500px ;
+}
+
+
+#callToActionButton{
+    border: 1px solid black;
+    box-shadow: 1px 2px 8px;
+    border-radius: 0.5rem;
+    padding: 7px 20px;
+
+
+  
+}
+.bg-darkest{
+    font-weight: 500;
+    font-size: 25px;
+}
+h2{
+    padding-bottom: 30px;
+}
+.online{
+    color: white;
+    text-decoration: underline;
+}
+.onlinelinks{
+    padding-top: 100px;
+    text-align: center;
+}
+.updates{
+    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    box-shadow: 1px 2px 8px;
+    border-radius: 1.6rem;
+    padding: 5px 80px;
+    
+    
+    
+    
+}
+.myupdates{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    
+    
+    
+    
+}
+
+.contributor{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-size: 20px;
+    
+}
+
+.contri{
+    text-decoration: underline;
+}
+
+.rights{
+    text-align: center;
+    color: white;
+    font-size: 20px;
 }
